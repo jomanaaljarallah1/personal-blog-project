@@ -1,104 +1,34 @@
-# Project Instructions
-
-## Overview
-
-In this project, you will be building a personal blog and podcast website using either React, NextJS or HTML,CSS and JS. The website will allow users to view, create, update, and delete podcasts without the need for any backend. You will use the provided JSON file as the data source for the podcasts.
-
-## Task
-
-Your task is to create a personal blog and podcast site where users can browse a list of blogs and podcasts, all from the user interface.
-
-## Requirements
-
-1. Use Whatever technology you feel comfortable with to create a new project and set up the necessary files and folders.
-2. Apply CSS styles using any library that you like ex: tailwingcss, bootstrap...etc
-3. Use the provided JSON file as the data source for the blogs and podcasts the file name is `db.json`.
-4. Implement functionality to view the list of blogs, the podcasts should be only listed and you can't do anything else wih them.
-5. Ensure that the page is responsive and displays correctly on different screen sizes.
-
-## Steps to Follow
-
-1. Fork the project to create your own repository.
-2. Clone the initialized project from the GitHub repository provided to you.
-3. Analyze the provided JSON file `db.json` within the project to understand the structure and properties of the object.
-4. Set up a new project using the appropriate commands.
-5. Use CSS modules or CSS-in-JS libraries to style the components and achieve a visually appealing design.
-6. Fetch the podcast data from the JSON file and display it on the website pages. The command to start the server is `npm run server`
-7. Test your web page in different devices to ensure responsiveness.
-8. Fine-tune the design and functionality as needed.
-9. Once you're satisfied with your work, push your final code to the GitHub repository.
-
-## Resources
-
-- [Next.js](https://nextjs.org/docs) - Official Next.js documentation.
-- [React](https://react.dev/) - Official React documentation.
-- CSS-in-JS libraries like [styled-components](https://styled-components.com/) or [Emotion](https://emotion.sh/) if you choose to use them.
-- [Tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework.
-- [Bootstrap](https://getbootstrap.com/) - A CSS framework.
-
-## Figma Design
-
-The design guidelines can be found in this [Figma file](https://www.figma.com/file/FY7rJwrQ1gNQnXU9cCmW34/Laos?type=design&node-id=52-4&mode=design&t=0ylyfLqaXXrxcymd-0). Please refer to the design for guidance on the visual style and layout.
-
-## JSON Mock Data
-
-The JSON file containing the mock data for the blogs and podcasts `db.json` will be provided inside the project. It should include information for the different podcasts and blogs, such as their titles, descriptions, image URLs, and any additional nested fields.
-
-## Submission
-
-- Push your final code to the GitHub repository.
-- Provide the link to your GitHub repository as the submission.
-
-## Deadline
-
-The project is due on [14th of August]. Make sure to manage your time effectively to complete the project on time.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, install the required packages using either npm, yarn, or pnpm:
+First, run the development server:
 
 ```bash
-npm install
-# then
-npm run server
-```
-
-Open [http://localhost:4000](http://localhost:4000) with your browser to see the result and the data.
-
-## Instructions
-
-To get this running using Next.js, you can run the following commands:
-
-```bash
-# This will create the project in a directory called personal-blog
-npx create-next-app@latest personal-blog
-# After you create the project you cd into it
-cd personal-blog
-# This will start the development server
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-To get this running using React:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-# This will create the project in a directory called personal-blog
-npm create vite@latest personal-blog -- --template react
-# After you create the project you cd into it
-cd personal-blog
-# This will install the dependencies
-npm install
-# This will start the development server
-npm run dev
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Grading Criteria
+## Learn More
 
-You will be evaluated based on the following:
+To learn more about Next.js, take a look at the following resources:
 
-- Accuracy in implementing the required functionality.
-- Code organization and cleanliness.
-- Properly working routing.
-- Responsive design.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Good luck, and have fun working on this project!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
